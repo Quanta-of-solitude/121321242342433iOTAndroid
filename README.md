@@ -2,11 +2,11 @@
 
 An app on development for an ongoing project based on Home Automation
 
-##Status:
+## Status:
 
 20% complete -ongoing
 
-##Android Studio
+## Android Studio
 
 
 ```
