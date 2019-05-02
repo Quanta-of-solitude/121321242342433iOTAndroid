@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height = "match_parent"
+    android:layout_width = "match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/iot_thumb"
+            android:background="#ffff" />
+        <TextView
+
+            android:text = "     iOT Control"
+            android:background="@android:color/holo_blue_dark"
+            android:textSize = "46sp"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:src="@drawable/iot"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:textSize="45sp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="74dp"
+            android:text = "-Rooms-"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_marginTop="180dp"
+                android:layout_marginLeft="12dp"
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:text="Drawing Room"
+                android:onClick="openDrawingRoom"/>
+
+            <Button
+                android:layout_marginTop="30dp"
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="12dp"
+                android:text="Living Room"
+                android:onClick="openLivingRoom"/>
+            <Button
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="12dp"
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:text="Study Room"
+                android:onClick="openStudyRoom"/>
+            <Button
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="12dp"
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:text="Bathroom"
+                android:onClick="openBathRoom"/>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id = "@+id/connectionStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor = "#081aa6"
+            android:layout_marginTop="640dp"
+            android:layout_marginLeft="8dp"
+            android:textSize = "18sp"
+            android:text = "Connection: Not Connected"/>
+    </RelativeLayout>
+
+</ScrollView>

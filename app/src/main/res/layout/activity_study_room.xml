@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height = "match_parent"
+    android:layout_width = "match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:src="@drawable/iot"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/iot_drawingroom"
+                android:background="#ffff" />
+            <TextView
+
+                android:text = "   Study Room"
+                android:background="@android:color/holo_blue_dark"
+                android:textSize = "46sp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:textColor="#ffff"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:textSize="45sp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="84dp"
+            android:text = "-Devices-"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_marginTop="180dp"
+                android:layout_marginLeft="12dp"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:textSize="32sp"
+                android:text="Light"
+                />
+            <TextView
+                android:layout_marginTop="180dp"
+                android:layout_marginLeft="48dp"
+                android:textSize = "30sp"
+                android:layout_width="wrap_content"
+                android:textColor="#F20000"
+                android:layout_height="wrap_content"
+                android:text = "Status: OFF"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_marginTop="320dp"
+                android:layout_marginLeft="12dp"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:textSize="32sp"
+                android:text="AC"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="48dp"
+                android:textColor="#F20000"
+                android:layout_marginTop="320dp"
+                android:text="Status: OFF"
+                android:textSize="30sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_marginTop="460dp"
+                android:layout_marginLeft="12dp"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:textSize="32sp"
+                android:text="FAN"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="48dp"
+                android:textColor="#F20000"
+                android:layout_marginTop="460dp"
+                android:text="Status: OFF"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
